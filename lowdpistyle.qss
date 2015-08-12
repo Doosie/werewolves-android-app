@@ -1,0 +1,202 @@
+QPushButton {
+    background-color: #191919;
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 20px;
+    /*font: bold 40px;*/
+    font: bold;
+}
+
+QDialog {
+    background-color: #19303F;
+}
+QScrollBar {
+
+}
+
+QCheckBox {
+    background-color: rbga(0,0,0,0%);
+    spacing: 0;
+    /*color: yellow;*/
+}
+
+QCheckBox::indicator {
+    width: 60px;
+    height: 60px;
+}
+
+QCheckBox::indicator:unchecked {
+
+    image: url(:/buttonicons/icons/checkbox_unchecked.png);
+}
+
+QCheckBox::indicator:checked {
+
+    image: url(:/buttonicons/icons/checkbox_checked.png);
+}
+
+QScrollArea {
+    background-color: #19303F;
+}
+
+QPushButton::checked {
+    background-color: #606060;
+}
+
+.InfoButton {
+    background-color: #000000;
+    color: yellow;
+    border-radius: 50px;
+    /*font: 60px;*/
+}
+
+.QWidget {
+     background-color: #2E77B2;
+     border: 0px;
+}
+
+QLabel {
+    background-color: rbga(0,0,0,0%);
+    color: yellow;
+    /*font: 30px;*/
+}
+
+/* Restart MessageBox */
+QMessageBox {
+    background-color: #19303F;
+}
+
+/* Start Screen */
+StartScreen {
+    border-image: url(:/images/Werewolf-Hunt-bitefight-werewolves-9209572-750-1000.jpg);
+}
+
+StartScreen QLabel {
+    color: #C40000;
+    /*font: 80px "Feast of Flesh BB";*/
+
+}
+
+/* Night Screen */
+NightScreen {
+    background-color: #19303F;
+}
+
+/* Morning Screen */
+MorningScreen {
+    background-color: #25617B;
+}
+
+/* Day Screen */
+DayScreen {
+    background-color: #25617B
+}
+
+DayScreen QLabel {
+    /*font: 20px;*/
+}
+
+DayScreen QLabel#dayTimerLabel {
+    /*font: 70px;*/
+}
+
+DayScreen QLabel#formalTimerLabel {
+    /*font: 70px;*/
+}
+
+
+/* Character Screen */
+CharacterScreen {
+    background-color: #19303F;
+}
+
+/* CharacterButton */
+CharacterButton {
+    background-color: #707070;
+    color: #000000;
+}
+CharacterButton::checked {
+    background-color: #e0e0e0;
+    color: #000000;
+}
+
+/* Info Screen */
+InfoScreen {
+    background-color: #19303F;
+    border: 0px;
+}
+
+CharInfoScreen {
+    border: 0px;
+}
+
+CharInfoScreen QLabel {
+    /*font: 50px;*/
+}
+
+CharInfoScreen QLabel#expansLabel {
+    background-color: #19303F;
+    padding: 8px;
+    /*font: 16px;*/
+}
+
+
+
+GameInfoScreen {
+    background-color: #2E77B2;
+}
+
+.QTabWidget {
+
+    border-top: 0px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+
+
+}
+
+
+QTabWidget::tab-bar {
+    width: 9999999px;
+}
+
+QTabBar::tab {
+    background-color: #707070;
+    border: 1px solid white;
+    padding: 5px;
+    /*font: 25px;*/
+}
+
+QTabBar::tab:selected {
+
+    background-color: #2E77B2;
+    /*
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    */
+    border-bottom: 0px;
+}
+
+InfoScreen QLabel {
+    /*font: 14px;*/
+}
+
+/* SettingsScreen */
+SettingsScreen {
+    background-color: #19303F;
+}
+
+SettingsScreen QLabel {
+    /*font-size: 40px;*/
+}
+
+SettingsScreen .QDialog {
+    background-color: #19303F;
+    border: 3px white;
+}
+
+
+

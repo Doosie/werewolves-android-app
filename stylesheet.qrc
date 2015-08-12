@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/qss">
+        <file>lowdpistyle.qss</file>
+        <file>highdpistyle.qss</file>
+    </qresource>
+</RCC>

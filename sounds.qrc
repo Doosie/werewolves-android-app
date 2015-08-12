@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/sounds">
+        <file>DayTimerBell.wav</file>
+        <file>FormalTimerBell.wav</file>
+    </qresource>
+</RCC>

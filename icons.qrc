@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/charactericons">
+        <file>characterIcons/sistersIcon.png</file>
+        <file>characterIcons/sistersIcon_small.png</file>
+    </qresource>
+    <qresource prefix="/buttonicons">
+        <file>icons/checkbox_unchecked.png</file>
+        <file>icons/checkbox_checked.png</file>
+    </qresource>
+</RCC>

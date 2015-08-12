@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/fonts">
+        <file>fonts/FEASFBI_.TTF</file>
+        <file>fonts/FEASFBRG.TTF</file>
+    </qresource>
+</RCC>
